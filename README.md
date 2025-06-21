@@ -1,5 +1,3 @@
-# Portfolio
-
 # Hei, olen Viliina!
 
 Tervetuloa GitHub -portfoliooni. Täältä löytyvät projekteja, jotka esittävät taitojani ja osaamistani. Osa on lopputöitä joista olen ylpeä ja osa omia projekteja joita olen tehnyt ohella.   
