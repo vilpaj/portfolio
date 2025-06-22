@@ -1,0 +1,25 @@
+/* linkin tyylit */
+.more-info-button{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: brown;
+    color: chartreuse;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.more-info-button:hover{
+    background-color: #0056b3;
+}
+/* piilotettu/näkyvä popup tyylit */
+.hidden-info{
+    display: none; 
+    margin-top: 20px; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.visible-info{
+    display: block;
+}
