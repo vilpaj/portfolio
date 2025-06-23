@@ -1,10 +1,10 @@
-# FFXIV Savage fights - Cheatsheets
+# Cheatsheets - FFXIV Savage fights
 
 FFXIV pelissä Savage raid -taistelut ovat haastavia taisteluita, jotka sisältävät vaihtelevia ja monimutkaisia mekaniikkoja. Näiden muistamisen aluksi kun taisteluita opettelee voi olla hankalaa, etenkin henkilölle joka oppii visuaalisesti.
 
 Tätä varten pelaajat luovat raidplan -https://raidplan.io/ffxiv sivuston avulla diaesityksen, tämän selaaminen on kuitenkin haastavaa etenkin mahdollisesti kesken taistelun.
 
-Ratkaisuna otin kuvakaappauksia tunnetuimmista/käytetyimmistä raidplan -strategioista ja järjestänyt ne yhteen kuvaan mahdollisten lyhyiden mekaniikkaselitysten kera.
+Ratkaisuna otin tiimiä varten jossa olen jäsenenä, kuvakaappauksia tunnetuimmista/käytetyimmistä raidplan -strategioista ja järjestänyt ne yhteen kuvaan mahdollisten lyhyiden mekaniikkaselitysten kera.
 
 Alla on esimerkkejä:
 
