@@ -4,7 +4,7 @@ Tämän Google Sheetin tarkoituksena on helppottaa oman raid tiimin varusteiden 
 
 Päätavoite oli selkeyttää kuka tarvitsee mitäkin, erityisesti Raid- ja Tome-tyyppisissä varusteissa.    
 Raid: Droppaavat suoraan itse Savage- taistelusta    
-Tome: Pelaaja hankkii perustason varusteen viikottain kertyvillä Tomestone -valuutalla. Näitä varusteita voidaan parantaa materiaalilla (Twine/Glaze), jotka ovat saataville Savage -taisteluista.
+Tome: Pelaaja hankkii perustason varusteen viikottain kertyvillä Tomestone -valuutalla. Näitä varusteita voidaan parantaa materiaalilla (Twine/Glaze), jotka ovat saatavilla Savage -taisteluista.
 
 Tämän avulle pystytään seuraamaan kuka tarvitsee mitäkin, välttämään päällekkäiset hankinnat, varmistaan oikeudenmukainen jako ja varusteiden tason nousun tehokkaasti tiimin kesken.
 
