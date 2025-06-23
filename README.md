@@ -13,10 +13,13 @@ Opinnäytetyön tein eAHOTin käyttöönotosta ja saavutettavuudesta: https://ww
 # Projektini
 
 Personal Landing Page (HTML, CSS, JS)
-* Henkilökohtainen aloitus sivu, jossa kerron itsestäni hiukan enemmän.
+* Henkilökohtainen aloitussivu, jossa kerron itsestäni hiukan enemmän.
 
 Figma (Käyttöliittymän suunnittelu)
 * Lopputyö kurssille, sovellus jossa alan harrastajat voivat keskustella ja käydä kauppaa toistensa kanssa.
 
 Google Sheets (Datan hallinta)
 * Google Sheets ratkaisu pelitiimin varusteiden hallintaa ja jakamista
+
+Cheatsheets (XIV)
+* Visuaalista FFXIV Savage -taisteluiden mekaniikkojen esittämistä sekä lyhyet selitykset
