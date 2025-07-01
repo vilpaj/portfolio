@@ -23,3 +23,6 @@ Google Sheets (Datan hallinta)
 
 Cheatsheets (XIV)
 * Visuaalista FFXIV Savage -taisteluiden mekaniikkojen esittämistä sekä lyhyet selitykset
+
+Vote the Funny (XIV)
+* Hauskat palat -klippien äänestys linkittämällä Google Forms lukemaan datan Google Sheet:stä.
