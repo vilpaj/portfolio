@@ -5,8 +5,9 @@ Opinnäytetyön tein eAHOTin käyttöönotosta ja saavutettavuudesta: https://ww
 
 --
 # Lyhyesti minusta
-**Kiinnostunut:** websivustojen suunnittelusta, saavutettavuudesta ja datan organisoinnista.  
-**Oppimassa:** GitHubin käyttö ja HTML taitojen herättelemistä
+**Kiinnostunut:** websivustojen suunnittelusta, saavutettavuudesta, tietoturvasta ja datan organisoinnista.  
+
+**Oppimassa:** GitHubin käyttö, koodaamisen herättelemistä ( [Codédex](https://www.codedex.io/home) avustamassa tässä)
 
 --
 
