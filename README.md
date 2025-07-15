@@ -5,6 +5,7 @@ Opinnäytetyön tein eAHOTin käyttöönotosta ja saavutettavuudesta: https://ww
 
 --
 # Lyhyesti minusta
+<<<<<<< HEAD
 **Kiinnostunut:** websivustojen suunnittelusta, saavutettavuudesta ja datan organisoinnista.  
 **Oppimassa:** To-Do-app (Frontend/backend)  
 taas taitojen herättelemistä taas :)  
