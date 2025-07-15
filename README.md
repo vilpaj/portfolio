@@ -6,7 +6,10 @@ Opinnäytetyön tein eAHOTin käyttöönotosta ja saavutettavuudesta: https://ww
 --
 # Lyhyesti minusta
 **Kiinnostunut:** websivustojen suunnittelusta, saavutettavuudesta ja datan organisoinnista.  
-**Oppimassa:** GitHubin käyttö ja HTML taitojen herättelemistä
+**Oppimassa:** To-Do-app (Frontend/backend)  
+taas taitojen herättelemistä taas :)  
+sekä myös Pythoninia (uudelleen asennus koska venv sekaisin)   
+~~GitHubin käyttö ja HTML taitojen herättelemistä~~
 
 --
 
