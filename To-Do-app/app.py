@@ -9,9 +9,9 @@ db = SQLAlchemy(app)
 
 #ToDoItem, tietokannan taulukko ja yksittäiset tehtävät
 class ToDoItem(db.Model):
-    id = db.Colum(db.Integer, primary_key=True)
-    content = db.Colum(db.String(200))
-    completed = db.Colum(db.Boolean, default=False)
+    id = db.Column(db.Integer, primary_key=True)
+    content = db.Column(db.String(200), nullable=False)
+    completed = db.Column(db.Boolean, default=False)
 
     def __repr__(self):
         return f'<ToDoItem {self.id}>'
