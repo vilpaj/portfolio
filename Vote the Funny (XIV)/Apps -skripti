@@ -1,0 +1,58 @@
+function updateFormNewSheetStructure(){
+  //1. määritä sheet tiedosto ja välilehti
+  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = spreadsheet.getSheetByName("test clips1"); //välilehti!
+  const values = sheet.getDataRange().getValues() //hae tiedot sheetistä
+
+
+  //2. hae tiedosto ID perusteella
+  const formID = "[FORM-ID]"; //forms ID, johon menee sheets data
+  const form = FormApp.openById(formID);
+
+
+  //3. alusta forms lomake
+  const items = form.getItems();
+  for (let i = items.length - 1; i >= 0; i--){
+    form.deleteItem(items[i]);
+  }
+  //4. käy läpi data sheetistä
+  let currentRaidbossName = "";
+  let currentCheckboxItem = null;
+  let clipsForCurrentBoss = [];
+
+
+  values.forEach((row, rowIndex) => {
+    const cellA = row[0] ? row[0].toString().trim() : '';
+    const cellB = row[1] ? row[1].toString().trim() : '';
+
+
+    if(cellA !== '' && cellB === ''){
+      if(currentCheckboxItem && clipsForCurrentBoss.length > 0){
+        currentCheckboxItem.setChoices(clipsForCurrentBoss.map(choiceText => currentCheckboxItem.createChoice(choiceText)));
+      }
+
+      //aseta raidboss nimi
+      currentRaidbossName = cellA;
+      clipsForCurrentBoss = []; //tyhjennä lista uutta bossia varten
+
+      //luo uusi osio
+      form.addPageBreakItem().setTitle(`Vote for the funny: ${currentRaidbossName}`);
+
+      //ohjeistus
+      form.addParagraphTextItem().setTitle("Choose all clips that are funny")
+      .setHelpText("You may choose multiple clips");
+
+
+      //luo uusi checkbox kyseiselle raidbossille
+      currentCheckboxItem = form.addCheckboxItem().setTitle(`Clips; (${currentRaidbossName})`).setRequired(false);
+    }else if (cellA !== '' && cellB !== '' && currentRaidbossName !== ''){
+      clipsForCurrentBoss.push(`${cellA} // (${cellB})`);
+    }
+  });
+  //käsittele klipit vasta kun silmukka on päättynyt
+  if (currentCheckboxItem && clipsForCurrentBoss.length > 0){
+    currentCheckboxItem.setChoices(clipsForCurrentBoss.map(choiceText => currentCheckboxItem.createChoice(choiceText)));
+  }
+  Logger.log("Forms updated, thank you ♥")
+}
+
