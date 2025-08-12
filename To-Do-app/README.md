@@ -1,4 +1,6 @@
-To Do -app
+# To Do -app
+
+To Do -sovellus, johon käyttäjä voi listata päivän tehtävät ja merkata niitä pois kun kyseinen tehtävä on hoidettu.
 
 Videotutoriaali jota seurasin: https://www.youtube.com/watch?v=-mH_VpW1Bko
 
