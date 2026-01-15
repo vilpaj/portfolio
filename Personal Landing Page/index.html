@@ -14,42 +14,52 @@
 <body>
 <!-- #ID personal, .class wide -->
     <nav id="top-menu">
+        <div class="lang-toggle">
+            <button onclick="loadLanguage('fi')">FIN</button>
+            <button onclick="loadLanguage('en')">ENG</button>
+        </div>
         <ul>
             <li>
-                <a href="#me">Minä itse</a>
+                <a href="#me" data-key="nav.me">Minä itse</a>
             </li>
             <li>
-                <a href="#interest">Kiinnostuksen kohteet</a>
+                <a href="#interest" data-key="nav.interest">Kiinnostuksen kohteet</a>
             </li>
             <li>
-                <a href="#projects">Projektit</a>
+                <a href="#projects" data-key="nav.projects">Projektit</a>
             </li>
         </ul>
     </nav>
 
     <header id="header">
         <div>
-            <h1>Se omituinen otus</h1>
-            <p>La creatura</p>
+            <h1 data-key="header.title"></h1>
+            <p data-key="header.subtitle"></p>
         </div>
     </header>
 
     <main>
         <section id="me">
-            <h2>1 - Minä itse</h2>
-                <p>Vasta valmistunut tietojenkäsittelijä ja video-peli nörtti.</p>
-                <a href="#" class="more-info-button" id="openPopUp">Otuksesta lisätietoa tästä</a>
+            <h2 data-key="me.title"></h2>
+                <p data-key="me.intro"></p>
+                <a href="#" class="more-info-button" id="openPopUp">Psst!</a>
             <div id="divAddInfo" class="hidden-info">
-                <h3>Lisätietoa: </h3>
-                    <p>Kuten aiemmin mainitsin, olen Viliina. Olen innokas tietojenkäsittelijä, jonka tämän hetkisiin kiinnostuksen kohteisiin kuuluu sivujen suunnittelu & responsiivisuus ja saavutettavuuden varmistaminen.</p>
-                    <p>Vapaa-aikani kuluu video-pelejä pelaten (yleisemmin juuri pelaten), luoden taidetta tai kutoen. Toisin sanoen, tykkään puuhastella paljon käsilläni.</p>
-                    <p>Oppimaani olen juuri soveltanut luomalla omia projekteja kuten Google Sheets ja Cheatsheets. Henkilökohtaista taidettani pääsee näkemään <a class="art-link" href="https://vpajuniemi.wixsite.com/portfolio/" >  täältä </p> </a>
+                <h3 data-key="popup.title"></h3>
+                    <p data-key="popup.p1"></p>
+                    <p data-key="popup.p2"></p>
+                    <p>
+                        <span data-key="popup.p3_before"></span>
+                        <a class="art-link"
+                        href="https://vpajuniemi.wixsite.com/portfolio/"
+                        data-key="popup.p3_link"></a>
+                        <span data-key="popup.p3_after"></span>
+                    </p>
             </div>
         </section>
         <!--flex kohta-->
         <div class="flex-container">
             <section id="interest">
-                <h2>2 - Kiinnostuksen kohteet</h2>
+                <h2 data-key="interest.title"></h2>
                 <ul>
                     <li>web-sivujen suunnittelu</li>
                     <li>käyttöliittymä UI/UX</li>
@@ -60,8 +70,8 @@
             </section>
         
             <section id="projects">
-                <h2>3 - Projektit</h2>
-                <p>Projektit (mahdollisesti keskeneräiset) löytyvät GitHubistani!</p>
+                <h2 data-key="projects.title"></h2>
+                <p data-key="projects.text">Projektit (mahdollisesti keskeneräiset) löytyvät GitHubistani!</p>
             </section>
         </div>
         <footer id="footer">
