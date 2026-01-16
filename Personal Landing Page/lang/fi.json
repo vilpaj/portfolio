@@ -1,8 +1,8 @@
 {
   "nav": {
-    "me": "Minä itse",
-    "interest": "Kiinnostuksen kohteet",
-    "projects": "Projektit"
+    "me": "Minä itse  | ",
+    "interest": "Kiinnostuksen kohteet | ",
+    "projects": "Projektit "
   },
   "header": {
     "title": "Se omituinen otus",
@@ -10,8 +10,7 @@
   },
   "me": {
     "title": "1 - Minä itse",
-    "intro": "Vasta valmistunut tietojenkäsittelijä ja video-peli nörtti.",
-    "more": "Otuksesta lisätietoa tästä"
+    "intro": "Vasta valmistunut tietojenkäsittelijä ja video-peli nörtti."
   },
   
     "popup":{

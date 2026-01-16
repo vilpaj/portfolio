@@ -1,8 +1,8 @@
 {
   "nav": {
-    "me": "About me",
-    "interest": "Interests",
-    "projects": "Projects"
+    "me": "About me | ",
+    "interest": "Interests | ",
+    "projects": "Projects "
   },
   "header": {
     "title": "That peculiar creature",
@@ -10,14 +10,13 @@
   },
   "me": {
     "title": "1 - About me",
-    "intro": "A recently graduated IT specialist and video game nerd.",
-    "more": "Learn more about the creature"
+    "intro": "A recently graduated IT specialist and video game nerd."
   },
 
     "popup": {
     "title": "Additional information:",
     "p1": "As mentioned earlier, my name is Viliina. I am an enthusiastic IT graduate whose current interests include web design, responsiveness, and ensuring accessibility.",
-    "p2": "In my free time I play video games, create art, or knit. In short, I enjoy working with my hands and building things.",
+    "p2": "In my free time I play video games, create art, or knit. In short, I enjoy working with my hands.",
     "p3_before": "I have recently applied what I have learned by creating my own projects such as Google Sheets and Cheatsheets. You can view my personal artwork ",
     "p3_link": "here",
     "p3_after": "."
