@@ -2,6 +2,7 @@
   "nav": {
     "me": "About me | ",
     "interest": "Interests | ",
+    "skills": "Skills | ",
     "projects": "Projects "
   },
   "header": {
@@ -12,6 +13,21 @@
     "title": "1 - About me",
     "intro": "A recently graduated IT specialist and video game nerd."
   },
+  "skills": {
+    "title": "Taidot",
+    "development": {
+      "title": "Development",
+      "list": "HTML · CSS · JavaScript"
+    },
+    "design": {
+      "title": "Design",
+      "list": "UI/UX · Figma · Web design · Accessibility"
+    },
+    "other": {
+      "title": "Muut",
+      "list": "Git/Github · Linux · Testing · Documentation"
+    }
+  },
 
     "popup": {
     "title": "Additional information:",
@@ -21,8 +37,9 @@
     "p3_link": "here",
     "p3_after": "."
   },
+
   "interest": {
-    "title": "2 - Interests",
+    "title": "Interests",
     "items": [
       "Web design",
       "UI / UX",
@@ -31,9 +48,18 @@
       "Data"
     ]
   },
-  "projects": {
-    "title": "3 - Projects",
-    "text": "My projects (possibly unfinished) can be found on my GitHub!"
+   "projects": {
+    "title": "Projects",
+    "plp": {
+      "title": "Personal Landing Page",
+      "description": "A personal landing page,  created to showcase my skills, interests and projects.",
+      "skills": "HTML · CSS · JavaScript"
+    },
+    "eahot": {
+      "title": "eAHOT",
+      "description": "A thesis project focused on the implementation and accessibility of an electronic recognition of prior learning process at SAMK. The project involved examining the user experience and improving accessibility and guidance.",
+      "skills": "Accessibility · UI/UX · Documentation · Testing"
+    }
   },
   "footer": "© Viliina Pajuniemi, 2025"
 }

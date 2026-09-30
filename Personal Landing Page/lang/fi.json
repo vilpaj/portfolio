@@ -2,6 +2,7 @@
   "nav": {
     "me": "Minä itse  | ",
     "interest": "Kiinnostuksen kohteet | ",
+    "skills": "Taidot | ",
     "projects": "Projektit "
   },
   "header": {
@@ -9,8 +10,23 @@
     "subtitle": "La creatura"
   },
   "me": {
-    "title": "1 - Minä itse",
+    "title": "Minä itse",
     "intro": "Vasta valmistunut tietojenkäsittelijä ja video-peli nörtti."
+  },
+  "skills": {
+    "title": "Taidot",
+    "development": {
+      "title": "Development",
+      "list": "HTML · CSS · JavaScript"
+    },
+    "design": {
+      "title": "Design",
+      "list": "UI/UX · Figma · Web-suunnittelu · Saavutettavuus"
+    },
+    "other": {
+      "title": "Muut",
+      "list": "Git/Github · Linux · Testaus · Dokumentointi"
+    }
   },
   
     "popup":{
@@ -22,7 +38,7 @@
     "p3_after": "."
   },
   "interest": {
-    "title": "2 - Kiinnostuksen kohteet",
+    "title": "Kiinnostuksen kohteet",
     "items": [
       "web-sivujen suunnittelu",
       "käyttöliittymä UI/UX",
@@ -32,8 +48,17 @@
     ]
   },
   "projects": {
-    "title": "3 - Projektit",
-    "text": "Projektit (mahdollisesti keskeneräiset) löytyvät GitHubistani!"
+    "title": "Projektit",
+    "plp": {
+      "title": "Personal Landing Page",
+      "description": "Henkilökohtainen aloitussivu, jonka tarkoituksena on esitellä osaamistani, kiinnostuksenkohteistani ja projekteistani.",
+      "skills": "HTML · CSS · JavaScript"
+    },
+    "eahot": {
+      "title": "eAHOT",
+      "description": "Opinnäytetyöprojekti, jossa keskityin sähköisen aiemmin hankitun osaamisen tunnistamisen ja tunnustamisen prosessin käyttöönottoon sekä saavutettavuuteen SAMKissa. Työhön kuului käyttäjäkokemuksen tarkastelua sekä saavutettavuuden ja ohjeistuksen kehittämistä.",
+      "skills": "Saavutettavuus · UI/UX · Dokumentointi · Testaus"
+    }
   },
   "footer": "© Viliina Pajuniemi, 2025"
 }

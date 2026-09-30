@@ -10,6 +10,7 @@ body{
 #header,
 #me,
 #interest,
+#skills,
 #projects,
 #footer{
     padding: 15px;
@@ -153,6 +154,12 @@ h3{
     padding-top: 6em;
     padding-bottom: 6em;
 }
+#skills{
+    color: white;
+    background-color: #2d2d2d;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
 #interest{
     color: #2d2d2d;
     background-color: #8b3e57;
@@ -172,6 +179,17 @@ h3{
     max-width: 70%;
     font-size: 1.5em;
 }
+#skills ul{
+    color: white;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 70%;
+    font-size: 1.5em;
+}
+#projects p{
+    max-width: 70%;
+    margin: 0 auto;
+}
 
 /* flex määritykset */
 .flex-container{
@@ -183,8 +201,8 @@ h3{
     max-width: 70%;
     margin: 0 auto;
 }
-.flex-container #interest,
-.flex-container #projects{
+.flex-container #skills,
+.flex-container #interest{
     flex: 1;
 }
 
@@ -194,6 +212,7 @@ h3{
     #header,
     #me,
     #interest,
+    #skills,
     #projects,
     #footer{
         overflow: auto;
@@ -202,8 +221,8 @@ h3{
     }
     p{
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         font-size: 0.9em;
     }
     h2{
@@ -286,6 +305,7 @@ h3{
     }
     h3{
         font-size: 1.5em;
+        margin: 2px
     }
     #interest ul{
         color: white;
