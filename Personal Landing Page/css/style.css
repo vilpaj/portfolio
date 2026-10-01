@@ -18,26 +18,30 @@ body{
 }
 p{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1em;
 }
 h2{
     font-size: 2em;
     color: white;
+}
+h3{
+    font-size: 1.3em;
 }
 /* top menu */
 #top-menu{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .lang-toggle{
     display: flex;
     gap: 10px;
+    margin-left: auto;
+    order: 2;
 }
 .lang-toggle button{
     background-color: #f18f84;
@@ -49,7 +53,6 @@ h2{
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.2s ease;
     user-select: none;
-    margin-right: 10px;
 }
 .lang-toggle button:hover,
 .lang-toggle button:focus{
@@ -64,25 +67,22 @@ h2{
 }
 #top-menu ul li{
     display: inline-block;
+    margin-right: 10px;
 }
 #top-menu ul a{
     text-decoration: none;
     font-weight: bold;
     color: white;
-    font-size: 1em;
 }
 #top-menu ul{
     padding: 0;
-    float: right;
-    font-size: 1.5em;
+    margin: 0;
+    font-size: 1.1em;
 }
 /* headeri */
 header{
     color: white;
     background-color: #2d2d2d;
-}
-/* kuvalle oma osio */
-header{
     background-image: url(../pexels-gustavo-queiroz-783663-1662540.jpg);
     background-size: cover;
     position: relative;
@@ -90,8 +90,9 @@ header{
     background-attachment: fixed;
     height: 30vh;
 }
+
 header h1{
-    font-size: 7em;
+    font-size: 5em;
     margin-bottom: -0.3em;
 }
 header div{
@@ -114,7 +115,7 @@ header::after{
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.1em;
     background-color: rgb(60, 30, 30);
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -134,9 +135,6 @@ header::after{
 }
 .visible-info{
     display: block;
-}
-h3{
-    font-size: 2em;
 }
 .art-link{
     text-decoration: none;
@@ -172,19 +170,15 @@ h3{
     padding-top: 6em;
     padding-bottom: 6em;
 }
-#interest ul{
-    color: white;
-    list-style: none;
-    margin: 0 auto;
-    max-width: 70%;
-    font-size: 1.5em;
-}
+/* taidot + osaamiset */
+#interest ul,
 #skills ul{
     color: white;
     list-style: none;
     margin: 0 auto;
+    padding: 0;
     max-width: 70%;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 #projects p{
     max-width: 70%;
@@ -223,10 +217,10 @@ h3{
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
-        font-size: 0.9em;
+        font-size: 1em;
     }
     h2{
-        font-size: 1em;
+        font-size: 1.5em;
         color: white;
     }
     /* top menu */
@@ -248,9 +242,6 @@ h3{
     header{
         color: white;
         background-color: #2d2d2d;
-    }
-    /* kuvalle oma osio */
-    header{
         background-image: url(../pexels-gustavo-queiroz-783663-1662540.jpg);
         background-size: cover;
         position: relative;
@@ -304,13 +295,15 @@ h3{
         display: block;
     }
     h3{
-        font-size: 1.5em;
+        font-size: 1em;
         margin: 2px
     }
-    #interest ul{
+    #interest ul,
+    #skills ul{
         color: white;
         list-style: none;
         margin: 0 auto;
+        padding: 0;
         max-width: 70%;
         font-size: 1em;
     }

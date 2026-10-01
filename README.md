@@ -15,7 +15,7 @@ Opinnäytetyön tein eAHOTin käyttöönotosta ja saavutettavuudesta: https://ww
 
 # Projektini
 
-Personal Landing Page (HTML, CSS, JS)
+Personal Landing Page (HTML, CSS, JS) → https://vilpaj.github.io/portfolio/Personal%20Landing%20Page/
 * Henkilökohtainen aloitussivu, jossa kerron itsestäni hiukan enemmän
 
 Figma (Käyttöliittymän suunnittelu)
