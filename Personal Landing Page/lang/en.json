@@ -62,7 +62,7 @@
     },
     "figma": {
       "title": "Figma - käyttöliittymän suunnittelu",
-      "description": "Kurssin lopputyönä toteutettu sovellusprototyyppi valitun harrastusalan harrastajille. Tavoitteena oli suunnitella sovellus, joka mahdollistaa käyttäjien välisen viestittelyn ja kaupankäynnin sekä omien asetusten ja tietojen hallinnan. Projekti toteutettiin Figmaa hyödyntäen.",
+      "description": "An application prototype created as a final course project for people interested in a chosen hobby. The goal was to design an application that allows users to communicate and trade with each other, as well as manage their own settings and information. The project was created using Figma.",
       "skills": " UI/UX · Figma · UI Design · Prototyping",
       "link": "View project in Figma →"
     }
