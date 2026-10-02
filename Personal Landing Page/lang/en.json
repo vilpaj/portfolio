@@ -59,6 +59,12 @@
       "title": "eAHOT",
       "description": "A thesis project focused on the implementation and accessibility of an electronic recognition of prior learning process at SAMK. The project involved examining the user experience and improving accessibility and guidance.",
       "skills": "Accessibility · UI/UX · Documentation · Testing"
+    },
+    "figma": {
+      "title": "Figma - käyttöliittymän suunnittelu",
+      "description": "Kurssin lopputyönä toteutettu sovellusprototyyppi valitun harrastusalan harrastajille. Tavoitteena oli suunnitella sovellus, joka mahdollistaa käyttäjien välisen viestittelyn ja kaupankäynnin sekä omien asetusten ja tietojen hallinnan. Projekti toteutettiin Figmaa hyödyntäen.",
+      "skills": " UI/UX · Figma · UI Design · Prototyping",
+      "link": "View project in Figma →"
     }
   },
   "footer": "© Viliina Pajuniemi, 2025"

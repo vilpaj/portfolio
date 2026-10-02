@@ -58,6 +58,12 @@
       "title": "eAHOT",
       "description": "Opinnäytetyöprojekti, jossa keskityin sähköisen aiemmin hankitun osaamisen tunnistamisen ja tunnustamisen prosessin käyttöönottoon sekä saavutettavuuteen SAMKissa. Työhön kuului käyttäjäkokemuksen tarkastelua sekä saavutettavuuden ja ohjeistuksen kehittämistä.",
       "skills": "Saavutettavuus · UI/UX · Dokumentointi · Testaus"
+    },
+    "figma": {
+      "title": "Figma - käyttöliittymän suunnittelu",
+      "description": "Kurssin lopputyönä toteutettu sovellusprototyyppi valitun harrastusalan harrastajille. Tavoitteena oli suunnitella sovellus, joka mahdollistaa käyttäjien välisen viestittelyn ja kaupankäynnin sekä omien asetusten ja tietojen hallinnan. Projekti toteutettiin Figmaa hyödyntäen.",
+      "skills": "UI/UX · Figma · Käyttöliittymä suunnittelu · Prototyyppi",
+      "link": "Katso projekti Figmassa →"
     }
   },
   "footer": "© Viliina Pajuniemi, 2025"
